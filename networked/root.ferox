@@ -1,0 +1,8 @@
+200      GET        8l       40w      229c http://10.129.10.222/
+200      GET        8l       40w      229c http://10.129.10.222/index.php
+301      GET        7l       20w      237c http://10.129.10.222/uploads => http://10.129.10.222/uploads/
+200      GET        5l       13w      169c http://10.129.10.222/upload.php
+200      GET        0l        0w        0c http://10.129.10.222/lib.php
+200      GET       22l       88w     1302c http://10.129.10.222/photos.php
+301      GET        7l       20w      236c http://10.129.10.222/backup => http://10.129.10.222/backup/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.129.10.222/backup (Apache)
